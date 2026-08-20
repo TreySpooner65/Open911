@@ -14,6 +14,12 @@ The system is designed around three connected surfaces:
 
 The simulated dispatch portal is published at [treyspooner65.github.io/Open911](https://treyspooner65.github.io/Open911/). It contains demonstration data only and is not connected to an operational dispatch system.
 
+The interactive demo supports simulated call intake, incident notes, unit status changes, command assignments, and messaging. These changes live only in the current browser session.
+
+### Google Maps demo key
+
+The map uses the Google Maps JavaScript API. Add a repository Actions secret named `GOOGLE_MAPS_API_KEY`; the Pages workflow exposes it to Vite at build time. Restrict the key to the Maps JavaScript API and the website referrer `https://treyspooner65.github.io/*` before enabling the secret. If no key is configured, the demo displays a clearly labeled non-Google fallback map.
+
 ## Repository layout
 
 ```text
