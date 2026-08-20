@@ -23,7 +23,7 @@ export function App() {
     <div className="shell">
       <header className="topbar">
         <div className="brand"><span className="mark">O911</span><div><strong>Open911</strong><small>Training Agency · Dispatch</small></div></div>
-        <div className="system"><span className="live-dot" /> All systems operational <button>Dispatcher ▾</button></div>
+        <div className="system"><span className="demo-badge">Public demo · simulated data</span><span className="live-dot" /> Demo systems operational <button>Dispatcher ▾</button></div>
       </header>
       <nav className="sidebar" aria-label="Primary navigation">
         <button className="active">Dispatch</button><button>Incidents</button><button>Units</button><button>Messages</button><button>Administration</button>
@@ -52,4 +52,3 @@ export function App() {
     </div>
   )
 }
-

@@ -10,6 +10,10 @@ The system is designed around three connected surfaces:
 
 > Open911 is in early development. It is not yet approved or tested as a sole mission-critical dispatch system.
 
+## Public demo
+
+The simulated dispatch portal is published at [treyspooner65.github.io/Open911](https://treyspooner65.github.io/Open911/). It contains demonstration data only and is not connected to an operational dispatch system.
+
 ## Repository layout
 
 ```text
@@ -45,6 +49,7 @@ npm run dev
 
 The portal uses representative development data until API authentication and realtime synchronization are connected.
 
+
 ### Android responder app
 
 Open the `android` directory in Android Studio, allow Gradle to sync, and run the `app` configuration on an Android 8.0+ device or emulator.
@@ -63,4 +68,3 @@ See [Architecture](docs/architecture.md), [Domain model](docs/domain-model.md), 
 ## License
 
 GNU General Public License v3.0. See [LICENSE](LICENSE).
-
