@@ -1,0 +1,14 @@
+.idea/
+.gradle/
+build/
+**/build/
+node_modules/
+dist/
+*.tsbuildinfo
+web/vite.config.js
+web/vite.config.d.ts
+.env
+*.local
+local.properties
+*.iml
+.DS_Store
